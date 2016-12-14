@@ -1,0 +1,63 @@
+.kolom{
+    width: 100%;
+    height: 300px;
+    background-color: #337ab7;
+    margin-bottom: 15px;
+
+}
+ul{
+	list-style-type: none;
+}
+.kolom1{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.judul{
+    color: black;
+}
+.tombol{
+    color: black;
+}
+body{
+ background: url('http://picview.info/download/20150407/twitter-logo-blue-background-1280x1024.jpg');
+}
+.name{
+    font-weight: bold;
+
+}
+
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+/*#login-dp .bottom{*/
+    /*background-color:rgba(255,255,255,.8);*/
+    /*border-top:1px solid #ddd;*/
+    /*clear:both;*/
+    /*padding:14px;*/
+/*}*/
+
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
