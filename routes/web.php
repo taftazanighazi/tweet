@@ -18,3 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+Route::resource('/beranda','BerandaController');
+Route::resource('user','UserController');
+Route::resource('following','FollowingController');
+Route::resource('followers','FollowerController');

@@ -29,6 +29,9 @@ body{
     font-weight: bold;
 
 }
+li{
+    list-style-type: none;
+}
 
 
 #login-dp{
