@@ -5,7 +5,7 @@
         <div class="col-md-6">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3>Follower{{$user->name}}</h3>
+                    <h3>Follower {{$user->name}}</h3>
                 </div>
                 <div class="table-responsive">
                     <table class="table table-bordered">
