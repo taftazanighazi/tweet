@@ -60,13 +60,25 @@
                     </form>
                 </div>
                 @foreach($tweets as $tweet)
-                    <div class="thumbnail">
-                        <a href="{{url('user',$tweet->user->id)}}"> <h2>{{$tweet->user->name}}</h2></a>
-                        <div class="caption">
-                            {{--<p>yes</p>--}}
-                            {{--<h2>Nama:{{$tweet->name}}</h2>--}}
-                            <p>{{$tweet->tweet}}</p>
+                    <div id="microposts" class="feed">
+
+                        <div class="micropost">
+                            <div class="content">
+                                <div class="media-left">
+                                    <img class="media-object" src="http://placehold.it/80x80" alt="img/avatar.png">
+                                </div>
+                                <div class="media-body">
+                                    <span class="name"><a href="{{url('user',$tweet->user->id)}}"> <p style="padding-left: 4px;">{{$tweet->user-> name}}</p></a></span>
+
+                                    <div class="post">  <p style="  padding-left:4px;">{{$tweet->tweet}}</p></div>
+                                </div>
+                                {{--<div class="media-right">--}}
+                                {{--<span>4 mins</span>--}}
+                                {{--</div>--}}
+                            </div>
+
                         </div>
+
                     </div>
                 @endforeach
             </div>

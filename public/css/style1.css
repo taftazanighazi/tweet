@@ -122,3 +122,17 @@ ul.twPc-Arrange {
         width: 20%;
     }
 }
+#microposts {
+    margin-bottom: 30px;
+}
+.feed {
+    border: 1px solid #ddd;
+    background-color: #FFFFFF;
+}
+.feed .micropost {
+    padding: 20px;
+}
+.content {
+    margin-left: -15px;
+    margin-right: -15px;
+}
